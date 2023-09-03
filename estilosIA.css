@@ -1,0 +1,93 @@
+/* Resetear márgenes y rellenos predeterminados */
+body, h1, h2, h3, p, ul, li, form, label, input {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos generales de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 50%;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #333;
+}
+
+/* Estilos para el formulario */
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Estilos para la galería de imágenes */
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galeria img {
+    border: 2px solid #333;
+    margin: 5px;
+    padding: 5px;
+    max-width: 100%;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    nav ul {
+        display: block;
+        text-align: left;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+}
